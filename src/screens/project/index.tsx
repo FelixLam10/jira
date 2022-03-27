@@ -17,10 +17,10 @@ export const ProjectScreen = () => {
             <Aside>
                 <Menu mode={'inline'} selectedKeys={[routeType]}>
                     <Menu.Item key={'kanban'}>
-                        <Link to={ 'kanban' }>看板</Link>
+                        <Link to={ 'kanban' }>看板1</Link>
                     </Menu.Item>
                    <Menu.Item key={'epic'}>
-                        <Link to={ 'epic' }>任务组</Link>
+                        <Link to={ 'epic' }>任务组界面</Link>
                     </Menu.Item>
                 </Menu>
             </Aside>

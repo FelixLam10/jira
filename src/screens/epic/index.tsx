@@ -30,7 +30,7 @@ export const EpicScreen = () => {
 
     return <ScreenContainer>
         <Row between={true}>
-            <h1>{currentProject?.name}任务组</h1>
+            <h1>{currentProject?.name}任务组1</h1>
             <Button type={ 'link' } onClick={() => setEpicCreateOpen(true)}>创建任务组</Button>
         </Row>
         <List style={{overflow: 'scroll'}} dataSource={epics} itemLayout={'vertical'} renderItem={epic => <List.Item>
